@@ -4,7 +4,7 @@
     "description": "Laravel OpenID Connect client",
     "license": "MIT",
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.0",
         "autisid/oidc-client": "^1"
     },
     "require-dev": {
