@@ -1,0 +1,44 @@
+{
+    "name": "autisid/laravel-oidc-client",
+    "version": "1.0.0",
+    "description": "Laravel OpenID Connect client",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "autisid/oidc-client": "1.0.0",
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "friendsofphp/php-cs-fixer": "^3"
+    },
+    "authors": [
+        {
+            "name": "Cabinet Office Digital Development",
+            "email": "webmaster@cabinetoffice.gov.uk",
+            "role": "Creator"
+        },
+        {
+            "name": "Maicol Battistini",
+            "email": "webmaster@maicol07.it",
+            "homepage": "https://maicol07.it",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Sidiq Fahmi",
+            "email": "auturmsid@gmail.com",
+            "role": "Maintainer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Autisid\\OIDCClient\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Autisid\\OIDCClient\\OIDCServiceProvider"
+            ]
+        }
+    }
+}
